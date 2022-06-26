@@ -1,0 +1,22 @@
+content
+{
+    display: block;
+    width: 100%;
+
+}
+.container_content
+{
+    width: 100%;
+}
+.container_content .bannerHome
+{
+    width: 100%;
+}
+.container_content .bannerHome .container_bannerHome
+{
+    width: 100%;
+}
+.container_content .bannerHome .container_bannerHome img
+{
+    width: 100%;
+}

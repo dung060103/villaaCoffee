@@ -1,0 +1,608 @@
+/* Phần 1 */
+.small-img-group {
+    display: flex;
+    justify-content: space-between;
+}
+.small-img:hover {
+    border: 1px solid #333;
+    border-radius: 16px;
+}
+.samll-img-col {
+    flex-basis: 24%;
+    cursor: pointer;
+}
+.sproduct select {
+    /* display: block; */
+    padding: 5px 10px;
+}
+.sproduct input {
+    /* width: 50px;
+    height: 40px;
+    padding-left: 10px;
+    font-size: 16px;
+    margin-right: 10px; */
+}
+.sproduct input:focus {
+    outline: none;
+}
+.buy-btn {
+    border: none;
+    background-color: #fb77fb;
+    opacity: 1;
+    transition: 0.3s all;
+}
+
+
+/* phần 2 */
+.phan2-item-3 label{
+    font-size: 15px;
+}
+.phan2-item-3 select {
+    font-size: 14px;
+}
+.size-giay {
+    width: 190px;
+    margin-left: 36px;
+}
+
+
+.phan2-item-4 {
+    font-size: 15px;
+}
+.soluong {
+    margin: auto;
+}
+button, input, optgroup, select, textarea {
+    font-family: monospace;
+}
+.soluong-input {
+    margin-left: 42px;
+}
+/* Tăng giảm số lượng sản phẩm */
+/* <b:tag name='style'> */
+/* <![CDATA[ */
+.buttons_added {
+    opacity:1;
+    display:inline-block;
+    display:-ms-inline-flexbox;
+    display:inline-flex;
+    white-space:nowrap;
+    vertical-align:top;
+}
+.is-form {
+    /* overflow:hidden; */
+    /* position:relative; */
+    /* background-color:#f9f9f9; */
+    /* height:2.2rem; */
+    width:1.9rem;
+    /* padding:0; */
+    text-shadow:1px 1px 1px #fff;
+    font-size: 20px;
+    border: none;
+    /* background-color: white; */
+    /* border:1px solid #ddd; */
+}
+.is-form:focus,.input-text:focus {
+    outline:none;
+}
+.is-form.minus {
+    border-radius:4px 0 0 4px;
+}
+.is-form.plus {
+    border-radius:0 4px 4px 0;
+}
+.input-qty {
+    background-color:#fff;
+    height:2.2rem;
+    text-align:center;
+    font-size:1.2rem;
+    display:inline-block;
+    border: none;
+    /* vertical-align:to   p; */
+    /* margin:0;
+    border-top:1px solid #ddd;
+    border-bottom:1px solid #ddd;
+    border-left:0;
+    border-right:0;
+    padding:0; */
+}
+.input-qty::-webkit-outer-spin-button,.input-qty::-webkit-inner-spin-button {
+    -webkit-appearance:none;
+    margin:0;
+}
+/* ]]> */
+/* </b:tag> */
+
+.phan2-item-5 {
+    padding: 32px 0 ;
+}
+.muangay {
+    margin-top: 28px;
+}
+.themvaogiohang-link:hover {
+    color: #fff;
+    padding: 16px 72px;
+    margin-left: -10px;
+}
+.themvaogiohang-link {
+    color: #fff;
+    background-color: #6a8172 ;
+    justify-content: center;
+    padding: 14px 62px; 
+    text-decoration: none !important;
+    border-radius: 12px; 
+    text-decoration: uppercase;
+}
+.muangay-link:hover {
+    color: #fff;
+    padding: 16px 108px;
+    margin-left: -10px;
+}
+.muangay-link {
+    color: #fff;
+    background-color: #6a8172;
+    padding: 14px 96px;
+    text-decoration: none !important;
+    border-radius: 12px; 
+    text-decoration: uppercase;
+}
+.themvaogiohang-link span {
+    font-size: 13px;
+    font-weight: 700;
+}
+.muangay-link span {
+    font-size: 13px;
+    font-weight: 700;
+}
+
+
+
+ /* Danh sách sản phẩm  */
+ * {
+    padding: 0;
+    margin: 0;
+}
+.hom-product-chitiet {
+    max-width: 1170px;
+    margin: 0 auto;
+    padding: 10px;
+    box-shadow: 1px 1px 15px 1px black;
+    background-color: white;
+    padding: 10px 20px;
+    box-sizing: border-box;
+    border-radius: 10px;
+}
+.hom-product-chitiet h3 {
+   font-size: calc(14px + (26 - 14) * ((100vw - 300px) / (1600 - 300))) !important;
+    /* font-size: 18px; */
+    padding: 10px 20px;
+    text-transform: uppercase;
+    border: 1px solid #bebebe;
+    display: inline-block;
+    border-radius: 26px;
+    margin-bottom: 0;
+    font-weight: bold;
+}
+.hom-product-chitiet:hover h3 {
+   /* color: #fff;
+   background-color: #333; */
+}
+.headline-chitiet {
+    text-align: center;
+    margin: 28px 0;
+    color: #555;
+}
+ul.products-sanpham-chitiet {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    list-style: none;
+    margin-left: -26px;
+}
+ul.products-sanpham-chitiet li {
+    flex-basis: 25%;
+    padding: 0 10px;
+    box-sizing: border-box;
+    margin-bottom: 16px;
+    background-color: white;
+    box-shadow: 1px 1px 25px 1px black;
+    border-radius: 8px;
+    margin-left: 26px;
+}
+
+.img-product-chitiet {
+    width: 246px;
+    height: 242px;
+    object-fit: cover;
+    border-radius: 8px;
+}
+
+
+ul.products-sanpham-chitiet li img {
+    max-width: 100%;
+    /* height: auto; */
+}
+ul.products-sanpham-chitiet li .product-top-chitiet {
+    position: relative;
+    overflow: hidden;
+}
+ul.products-sanpham-chitiet li .product-top .product-thumb-chitiet {
+    display: block;
+}
+ul.products-sanpham-chitiet li:hover .product-top-chitiet .product-thumb-chitiet {
+    filter: opacity(80%);
+}
+ul.products-sanpham-chitiet li .product-top-chitiet .product-thumb-chitiet img {
+    display: block;
+}
+ul.products-sanpham-chitiet li .product-top-chitiet a.buy-now-chitiet {
+    text-transform: uppercase;
+    text-decoration: none;
+    text-align: center;
+    display: block;
+    background-color: #446084;
+    color: #fff;
+    padding: 8px 0;
+    position: absolute;
+    bottom: -44px;
+    width: 100%;
+    border-radius: 8px;
+    height: 36px;
+    font-size: 14px;
+    transition: 0.25s ease-in-out;
+    opacity: 0.85;
+}
+.product-item-chitiet {
+   padding: 10px;
+}
+ul.products-sanpham-chitiet li:hover a.buy-now-chitiet{
+    bottom: 0;
+}
+ul.products-sanpham-chitiet li .product-info-chitiet {
+    padding: 10px 0;
+}
+ul.products-sanpham-chitiet li .product-info-chitiet a {
+    display: block;
+    text-decoration: none;
+}
+ul.products-sanpham-chitiet li .product-info-chitiet a.product-cart-chitiet {
+    font-size: 11px;
+    text-transform: uppercase;
+    color: #9e9e9e;
+    padding: 3px 0;
+    
+}
+ul.products-sanpham-chitiet li .product-info-chitiet a.product-name-chitiet {
+    color: #334862;
+    padding: 3px 0;
+}
+ul.products-sanpham-chitiet li .product-info-chitiet .product-price-chitiet {
+    color: #111;
+    padding: 3px 0;
+    font-weight: 400;
+}
+.product-price-chitiet span {
+   color: #6a8172;
+   margin-left: 22px;
+   font-weight: 600;
+   font-size: 24px;
+}
+.product-price-chitiet del {
+    color: #395844;
+    /* margin-left: 16px; */
+}
+.product-price-chitiet u {
+    font-size: 16px;
+}
+.phan2-item-1 span {
+    font-size: 24px;
+}
+.phan2-item-1-item {
+    display: flex;
+    font-size: 20px;
+    font-weight: 600;
+    margin-bottom: 16px;
+}
+.phan2-item-2 span {
+    font-size: 14px;
+}
+.phan2-item-2  h4 {
+    color: #395844;
+}
+
+
+/* phan 3 */
+.list-chitiet-1  {
+    list-style: none;
+    font-size: 14px;
+    background-color: #f7f7f7;
+}
+.list-chitiet-1 a {
+    color: #333;
+}
+.list-chitiet-1 span {
+    color: #333;
+}
+.chitiet-item-1-2 span {
+    color: #fb5831;
+}
+.giasanpham {
+    display: flex;
+}
+.giasanpham h5 {
+    font-size: 16px;
+    margin: auto;
+    color: #395844;
+}
+
+
+
+
+.list-chitiet-2 {
+    width: 100%;
+    list-style: none;
+    display: -webkit-flex;
+    margin-top: 16px;
+    display: flex;
+    -webkit-justify-content: center;
+    justify-content: center;
+}
+.list-chitiet-2 li {
+    max-width: 50px;
+    margin-right: 8px;
+}
+.list-chitiet-2 li img {
+    max-width: 100%;
+    max-height: 100%;
+    display: block;
+    cursor: pointer;
+}
+
+
+body{
+    margin-top:20px;
+    background:#eee;
+    }
+    .review-list ul li .left span {
+         width: 32px;
+         height: 32px;
+         display: inline-block;
+    }
+     .review-list ul li .left {
+         flex: none;
+         max-width: none;
+         margin: 0 10px 0 0;
+    }
+     .review-list ul li .left span img {
+         border-radius: 50%;
+    }
+     .review-list ul li .right h4 {
+         font-size: 16px;
+         margin: 0;
+         display: flex;
+    }
+     .review-list ul li .right h4 .gig-rating {
+         display: flex;
+         align-items: center;
+         margin-left: 10px;
+         color: #ffbf00;
+    }
+     .review-list ul li .right h4 .gig-rating svg {
+         margin: 0 4px 0 0px;
+    }
+     .country .country-flag {
+         width: 16px;
+         height: 16px;
+         vertical-align: text-bottom;
+         margin: 0 7px 0 0px;
+         border: 1px solid #fff;
+         border-radius: 50px;
+         box-shadow: 0 1px 2px rgba(0, 0, 0, 0.2);
+    }
+     .country .country-name {
+         color: #95979d;
+         font-size: 13px;
+         font-weight: 600;
+    }
+     .review-list ul li {
+         border-bottom: 1px solid #dadbdd;
+         padding: 0 0 30px;
+         margin: 0 0 30px;
+    }
+     .review-list ul li .right {
+         flex: auto;
+    }
+     .review-list ul li .review-description {
+         margin: 20px 0 0;
+    }
+     .review-list ul li .review-description p {
+         font-size: 14px;
+         margin: 0;
+    }
+     .review-list ul li .publish {
+         font-size: 13px;
+         color: #95979d;
+    }
+    
+    .review-section h4 {
+         font-size: 20px;
+         color: #222325;
+         font-weight: 700;
+    }
+     .review-section .stars-counters tr .stars-filter.fit-button {
+         padding: 6px;
+         border: none;
+         color: #4a73e8;
+         text-align: left;
+    }
+     .review-section .fit-progressbar-bar .fit-progressbar-background {
+         position: relative;
+         height: 8px;
+         background: #efeff0;
+         -webkit-box-flex: 1;
+         -ms-flex-positive: 1;
+         flex-grow: 1;
+         box-shadow: 0 1px 2px rgba(0, 0, 0, 0.2);
+         background-color: #ffffff;
+        ;
+         border-radius: 999px;
+    }
+     .review-section .stars-counters tr .star-progress-bar .progress-fill {
+         background-color: #ffb33e;
+    }
+     .review-section .fit-progressbar-bar .progress-fill {
+         background: #2cdd9b;
+         background-color: rgb(29, 191, 115);
+         height: 100%;
+         position: absolute;
+         left: 0;
+         z-index: 1;
+         border-radius: 999px;
+    }
+     .review-section .fit-progressbar-bar {
+         display: flex;
+         align-items: center;
+    }
+     .review-section .stars-counters td {
+         white-space: nowrap;
+    }
+     .review-section .stars-counters tr .progress-bar-container {
+         width: 100%;
+         padding: 0 10px 0 6px;
+         margin: auto;
+    }
+     .ranking h6 {
+         font-weight: 600;
+         padding-bottom: 16px;
+    }
+     .ranking li {
+         display: flex;
+         justify-content: space-between;
+         color: #95979d;
+         padding-bottom: 8px;
+    }
+     .review-section .stars-counters td.star-num {
+         color: #4a73e8;
+    }
+     .ranking li>span {
+         color: #62646a;
+         white-space: nowrap;
+         margin-left: 12px;
+    }
+     .review-section {
+         border-bottom: 1px solid #dadbdd;
+         padding-bottom: 24px;
+         margin-bottom: 34px;
+         padding-top: 64px;
+    }
+     .review-section select, .review-section .select2-container {
+         width: 188px !important;
+         border-radius: 3px;
+    }
+    ul, ul li {
+        list-style: none;
+        margin: 0px;
+    }
+    .helpful-thumbs, .helpful-thumb {
+        display: flex;
+        align-items: center;
+        font-weight: 700;
+    }
+    
+    .nhanxet-2 {
+        padding: 12px 24px;
+        margin-left: 52px;
+    }
+
+
+
+.mota-sanpham {
+    padding: 5px 70px;
+    background: white;
+    border-radius: 10px;
+    box-shadow: 1px 1px 25px 1px black;
+    width: 90%;
+}
+.mota-header {
+    text-transform: uppercase;
+    margin-bottom: 20px;
+}
+.mota-header span {
+    font-size: 20px;
+    font-weight: 600;
+}
+.mota-item span {
+    font-size: 16px;
+    font-weight: 500;   
+}
+.mota-list  {
+    margin: 14px 0;
+    font-size: 14px;
+}
+.mota-list ul {
+    text-decoration: dotted;
+}
+.comment-header {
+    margin: 32px 0;
+}
+
+
+
+/* Mobile */
+@media only screen and (max-width: 812px) {
+    ul.products-sanpham-chitiet li
+    {
+        margin-left: 0;
+    }
+    .phan2-item-1-item {
+        display: none;
+    }
+    .giasanpham {
+        display: none;
+    }
+    .phan2-item-5 {
+        margin: 0 26px;
+    }
+    .chitiet-item-1-2 {
+        display: none;
+    }
+    .mota-sanpham {
+        padding: 0 36px;
+    }
+    ul.products-sanpham-chitiet {
+        flex-direction: column;
+        margin: auto;
+    }
+    .img-product-chitiet {
+        width: 100%;
+        height: auto;
+    }
+    ul.products-sanpham-chitiet li .product-info-chitiet {
+        margin: 0 48px;
+    }
+    ul.products-sanpham-chitiet li .product-info-chitiet a.product-cart-chitiet {
+        font-size: 16px;
+    }
+    ul.products-sanpham-chitiet li .product-info-chitiet a.product-name-chitiet {
+        font-size: 20px;
+    }
+    
+}
+
+
+
+/* Table */
+@media only screen and (min-width: 748px) and (max-width: 1024px) {
+    .chitiet-item-1 {
+        display: none;
+    }
+    .phan2-item-5 {
+        margin: 0 198px;
+    }
+}
+
+.container_content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}

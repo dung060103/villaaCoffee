@@ -1,0 +1,125 @@
+.card-giohang {
+    margin-left: 31px !important;
+}
+.form-control-sm {
+    width: 56px !important;
+    border-color: #699dd2 !important;
+    padding: 0;
+}
+.col-md-3-one {
+    padding: 0;
+}
+.my-4 {
+    height: 0 !important;
+}
+.col-md-3-check {
+    padding: 0 !important;
+}
+.offset-lg-1 {
+    padding: 0 !important;
+}
+.fa-minus, .fa-plus {
+    font-size: 14px;
+}
+.btn-link:active {
+    border: unset !important;
+}
+
+
+
+
+
+/* @media (min-width: 1025px) {
+    .h-custom {
+    height: 100vh !important;
+    }
+    } */
+
+.product-giohang {
+    padding: 0 12px;
+}
+.anh-chi {
+    display: flex;
+    margin: auto;
+}
+.chi-1 {
+    margin-left: 52px;
+}
+.hoten-form {
+    width: 80%;
+}
+.card-group {
+    margin-top: 12px;
+}
+
+.card-giohang {
+    margin-left: 0 !important;
+}
+.tab-2 {
+    border: 1px dashed #666;
+    height: 100%;
+}
+.anh-chi {
+    margin-top: 36px !important;
+}
+.so-phone {
+    display: block !important;
+}
+.phone-input, .form-address {
+    width: 100%;
+}
+.product-thanhtoan {
+    margin-top: 16px;
+    font-size: 14px;
+}
+.product-thanhtoan h6 {
+    font-weight: bold;
+    font-size: 14px;
+}
+.card-group input {
+    border-radius: 8px;
+    border: 1px solid #333;
+    padding: 3px 12px;
+}
+.card-group {
+    font-size: 14px;
+}
+.hoanthanh-donhang {
+    margin-top: 14px;
+    /* margin-bottom: 10px; */
+    padding: 6px 14px;
+    font-size: 16px;
+    font-weight: 550;
+    color: #fff;
+    background-color: #395844;
+    border: none;
+    border-radius: 8px;
+}
+.hoanthanh-donhang:hover {
+    padding: 8px 16px;
+    margin-left: 4px;
+}
+.end-ketthuc {
+    color: #fff;
+    padding: 6px 6px;
+    background-color: #9acd32;
+    font-weight: 500;
+    border-radius: 4px;
+    margin-bottom: 32px;
+}
+
+/* Mobile */
+@media only screen and (max-width: 812px) {
+    .col-xl-3 {
+        margin-left: 74px;  
+    }
+    .col-md-3-check {
+        margin-left: 71px;
+        margin-top: 12px;
+    }
+    .col-md-3 h6 {
+        margin-left: 87px;
+        margin-top: 12px;
+    }
+    
+}
