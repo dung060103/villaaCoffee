@@ -151,7 +151,7 @@ function addDropMenuClick()
     removeDropMenu();
     dropdownMenu_list.innerHTML=
     `
-    <li class="dropdown-menu_item"><a href="thietbị.html">Thiết bị</a> </li>
+    <li class="dropdown-menu_item"><a href="thietbi.html">Thiết bị</a> </li>
     <li class="dropdown-menu_item"><a href="coffee.html">Cà phê</a></li>
     `
     var containerDropdownMenu = document.querySelector(".container_dropdown-menu")
